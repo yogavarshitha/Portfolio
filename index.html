@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Yoga varshitha</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/yogavarshitha" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/yogavarshithakatta/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:yogavarshitha45@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Varshitha 👋</h2>
+        <p>I’m Yoga Varshitha, a highly motivated and detail-oriented engineering student with a strong understanding of the Software Development Life Cycle (SDLC) and a growing expertise in Machine Learning. I have a solid foundation in  Python and I’m proficient in analytical thinking and problem-solving.
+
+Passionate about building intelligent and impactful solutions, I am eager to apply my technical skills and academic knowledge to real-world machine learning and software development projects. I’m committed to continuous learning and excited to contribute to innovative, technology-driven environments.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#projects">
+            <i class="fa-solid fa-pen"></i>
+            <span">Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+  <div class="headshot-content">
+    <img src="images/varshiphoto.png.jpg" alt="Yoga Varshitha's headshot">
+    <p class="name">yogavarshitha</p>
+    <p class="title">Software engineer</p>
+  </div>
+</div>
+
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I possess a strong foundation in front-end and back-end technologies, including HTML, CSS, and JavaScript, which allow me to build visually appealing and interactive web interfaces.
+         I'm also proficient in Python, enabling me to develop powerful scripts and backend logic.
+         These skills collectively empower me to create functional and user-friendly web applications.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images\pythonlogo.png" alt="Python logo">
+          <span>Python</span>
+        </div>  
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2 class="centep">Projects</h2>
+
+      <div class="group">
+        
+
+        <div class="text">
+           <p> AgriSage: Al-Powered Smart Farming Assistant Developed a full-stack smart farming platform to assist farmers in crop selection, disease detection, irrigation planning, price prediction, and fair pricing. Integrated machine learning models for price prediction and disease detection. Implemented smart irrigation using weather data and crop requirements for precise water management. Tools used: Python (Flask), React.js, TensorFlow, Scikit-learn, and integrated REST APIs.
+           </p><br>
+
+          <p>2. Job Search & Alert Platform:I built a job search web application that helps users find job listings by scraping websites using Python and Selenium. The platform allows users to register, log in, search for jobs by keyword and location, save their favorite jobs, and receive job alerts through email. 
+            I used Flask for the backend, HTML/CSS for the frontend, and stored data using SQLite.</p>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2 class="centep">Contact</h2>
+
+      <div class="group">
+        <div class="text">
+         Thank you for visiting my portfolio! I'm always open to new opportunities, collaborations, or simply connecting with like-minded individuals. Whether you have a project in mind or just want to say hello, feel free to reach out via email or connect with me on LinkedIn or GitHub. I look forward to hearing from you
+
+
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body> 
